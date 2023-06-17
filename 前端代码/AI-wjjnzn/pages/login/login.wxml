@@ -1,0 +1,16 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+  <!-- 登录按钮 -->
+  <button type="primary" id="loginBtn" bindtap="onLogin" hidden="{{hidden}}">登录</button>
+  
+  <!-- 账号信息组件 -->
+  <account-info id="accountInfo" wx:if="{{isLogin}}" class="info-container" >
+    <image src="{{avatarUrl}}" class="avatar" />
+    <view class="nickname-container">
+      <text class="nickname">昵称：{{nickname}}</text>
+      <text class="openId">账号ID：{{openId}}</text>
+    </view>
+  </account-info>
+</view>
+
+

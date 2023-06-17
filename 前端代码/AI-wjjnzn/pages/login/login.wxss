@@ -1,0 +1,41 @@
+/* pages/login/login.wxss */
+button{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.button-sp-area{
+  margin: 0 auto;
+  width: 60%;
+}
+.mini-btn{
+  margin-right: 10rpx;
+}
+/* 在 CSS 文件中 */
+/* 在 CSS 中 */
+.info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.nickname-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nickname {
+  font-size: 16px;
+  color: #333;
+}
+
+.openId {
+  font-size: 14px;
+  color: #666;
+}

@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="chat-area">
+    <block wx:for="{{chatHistory}}" wx:key="index">
+      <text class="{{item.isAI ? 'ai-message' : 'user-message'}}">{{item.content}}</text>
+    </block>
+  </view>
+  <view class="input-area">
+    <input bindinput="onInput" placeholder="请输入您要发送的内容"/>
+    <button type="primary" size="mini" bindtap="onSubmit">发送</button>
+  </view>
+</view>

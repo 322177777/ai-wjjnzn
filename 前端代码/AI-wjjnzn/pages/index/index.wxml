@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+
+  <image src="/pages/images/AI.png" class="aipng" bindtap="onAvatarTap"/>
+  AI-wjjnzn
+</view>

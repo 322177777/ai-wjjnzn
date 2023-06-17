@@ -1,0 +1,39 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/login/login",
+        "pages/chat/chat"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "wjjnzn",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+      "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/index.png",
+        "selectedIconPath": "pages/images/index.png"
+      }, {
+        "pagePath": "pages/login/login",
+        "text": "登录",
+        "iconPath": "pages/images/login.png",
+        "selectedIconPath": "pages/images/login.png"
+      }]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "mp-weixin": {
+        "permission": {
+          "scope.userLocation": {
+            "desc": "你的位置信息将用于小程序查找您周边的商铺"
+          },
+          "scope.userInfo": {
+            "desc": "你的基本信息将用于小程序获得更好的体验"
+          }
+        }
+    }
+    
+}
